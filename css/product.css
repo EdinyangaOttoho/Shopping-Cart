@@ -1,0 +1,56 @@
+.img-holder {
+    width:300px;
+    height:350px;
+}
+.pics {
+    width:100%;
+    height:100px;
+}
+.title-top {
+    font-family:'GothamRounded';
+    font-size:20px;
+}
+.innertext {
+    box-sizing:border-box;
+    width:100%;
+    height:350px;
+    padding:15px;
+    padding-top:20px;
+}
+.desc {
+    font-family:'Roboto';
+    font-size:18px;
+}
+.price-tags {
+    color:hotpink;
+    font-weight:bold;
+    font-family:'GothamRounded';
+    font-size:25px;
+}
+.quant {
+    font-family:'Roboto';
+    font-size:18px;
+    font-weight:bold;
+}
+.sele {
+    width:50%;
+    font-size:20px;
+    font-family:'Roboto';
+}
+#total {
+    font-family:'GothamRounded';
+    font-size:25px;
+    color:hotpink;
+}
+@media (max-width:1000px) {
+    .img-holder {
+        width:45%;
+        height:100%;
+    }   
+    .innertext {
+        height:auto;
+    }
+    .pics {
+        height:200%;
+    }
+}
